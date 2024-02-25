@@ -2277,6 +2277,7 @@ body {
   .top-bar a{
     color: #fff;
     font-size: 14px;
+    /* white-space: nowrap; */
   }
   .__cf_email__{
     color: #2a489c;
