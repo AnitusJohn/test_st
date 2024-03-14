@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .modal-content{
+    width: 50%;
+    margin:auto;
+}
+    </style>
+</head>
+<body>
+    <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <span class="close" data-dismiss="modal" style="
+                      text-align: right;
+                      font-size: 49px;
+                      color: #333;
+                      cursor: pointer;
+                      position: relative;
+                  ">&times;</span>
+            <img src="https://www.emii.edu.in/assets/img/modal/pop.jpg" width="100%" style="border-radius: 9px; margin-top: -27px;">
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+                // Show the modal on page load
+                $('#myModal').modal('show');
+                $('.close').click(function(){
+                    $('#myModal').modal('hide');
+                })
+            });
+    </script>
+</body>
+</html>
