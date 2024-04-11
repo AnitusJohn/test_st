@@ -2488,7 +2488,15 @@ body {
     background-image: url('../images/OPEN_SCHOOLING.jpg');
   }
   
-  
-  
+  .modal-header{
+    padding: 0 !important;
+  }
+
+  .mobile-nav-toggle{
+    margin: 0 !important;
+  }
+  .icofont-navigation-menu{
+    display: none;
+  }
   
   
